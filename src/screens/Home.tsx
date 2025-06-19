@@ -8,7 +8,7 @@ import { PRODUCTS_LIST } from '../data/constants'
 
 type HomeProps = NativeStackScreenProps<RootStackParams,'Home'>
 
-export default function home({navigation}:HomeProps) {
+export default function Home({navigation}:HomeProps) {
   return (
     <View style={styles.container}>
         <FlatList
